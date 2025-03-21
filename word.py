@@ -183,7 +183,7 @@
 
 # 03 assignment home 
 
-st = "Jaranwala Faisalabad Lahore Karachi Multan" # don't use the slice method and replace first letters in small;
+# st = "Jaranwala Faisalabad Lahore Karachi Multan" # don't use the slice method and replace first letters in small;
 
 
 # 15 lists  
@@ -240,11 +240,50 @@ st = "Jaranwala Faisalabad Lahore Karachi Multan" # don't use the slice method a
 #     lp.insert(0,x)
 # print(lp23423423g)
 
+# While Loop
+# i=0
+# while i<=20:
+#     print(i)
+#     i=i+2
 
+#For loop
+# i=[0,2,4,6,8,20,12,14,16,18,20]
+# for items in i:
+#     print (items)
 
- 
+#List Comprehension
 
+# ls=["Karachi","Islamabad","Jarawanla","kivi"]
+# ls2=[]
+# for x in ls:
+#     if "a" in x:
+#         ls2.append(x)
+# print(ls2)        
 
+# ls=["Karachi","Islamabad","Jarawanla","kivi"]
+# ls2=[x for x in ls if "i" in x] # first x before for command is representing the expression and the x after for is representing items in list.
+
+# print(ls2)
+
+# ls=["Karachi","Islamabad","Jarawanla","kivi"]
+# ls2=[x for x in ls if x !="Karachi"]
+# print(ls2)
+
+# ls=["Karachi","Islamabad","Jarawanla","kivi"]
+# ls2=[x[0].upper()+x[1:] for x in ls]
+# print(ls2)
+
+# ls=["Karachi","Islamabad","Jarawanla","kivi"]
+# ls2=[x.capitalize() for x in ls]
+# print(ls2)
+
+# ls=["Karachi","Islamabad","Jarawanla","kivi"]
+# ls2=[x[0].upper()+x[1:-1].lower()+ x[-1:].upper() for x in ls]
+# print(ls2)
+
+ls=["Karachi","Islamabad","Jarawanla","kivi"]
+ls2=[x for x in ls if "F" in x]
+print(ls2)
 
 
 
