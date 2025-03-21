@@ -238,7 +238,7 @@ st = "Jaranwala Faisalabad Lahore Karachi Multan" # don't use the slice method a
 # lp = []
 # for x in ls:
 #     lp.insert(0,x)
-# print(lp)
+# print(lp23423423g)
 
 
 
