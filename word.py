@@ -281,15 +281,37 @@
 # ls2=[x[0].upper()+x[1:-1].lower()+ x[-1:].upper() for x in ls]
 # print(ls2)
 
-ls=["Karachi","Islamabad","Jarawanla","kivi"]
-ls2=[x for x in ls if "F" in x]
-print(ls2)
+# ls=["Karachi","Islamabad","Jarawanla","kivi"]
+# ls2=[x for x in ls if "F" in x]
+# print(ls2)
 
 
+# While Loop
+# i=0
+# while i<=20:
+#     print("2 *", i , "=", 2*i)
+#     i=i+1
+
+#For Loop
+# for items in range(1,11):
+#     print("2 *", items, "=", 2*items)
 
 
+# fact=5
+# i=1
+# while i<5:
+#     fact=fact*i
+#     i=i+1
+# print(fact)    
 
 
+a = input("Enter 1st value (comma-separated):").split(',')
+b = input("Enter 2nd value (comma-separated):").split(',')
+print(a+b)
 
+#Therefore, even though you are providing string input, the .split(',') method transforms that string
+#into a list of strings, which is then concatenated with another list of strings.
 
+print("git statushello")
 
+ 
